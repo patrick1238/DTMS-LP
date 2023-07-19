@@ -1,0 +1,2 @@
+Dez 24, 2019 12:45:14 PM Background_handler.ErrorLog createLogEntry
+INFORMATION: Case printer started

@@ -1,0 +1,9 @@
+##DTMS-LP default config##
+
+##Paths
+database_path=C:\Users\patri\OneDrive\Dokumente\Patho\Literatur\Own work\Patrick\Diss\Tools\DTMS-LP\Resources\Storages\database.csv
+cases_path=C:\Users\patri\OneDrive\Dokumente\Patho\Literatur\Own work\Patrick\Diss\Tools\DTMS-LP\cases_processed\
+staining_path=C:\Users\patri\OneDrive\Dokumente\Patho\Literatur\Own work\Patrick\Diss\Tools\DTMS-LP\Resources\Storages\staining.csv
+errorlog_path=C:\Users\patri\OneDrive\Dokumente\Patho\Literatur\Own work\Patrick\Diss\Tools\DTMS-LP\Error_logs\
+template_path=C:\Users\patri\OneDrive\Dokumente\Patho\Literatur\Own work\Patrick\Diss\Tools\DTMS-LP\Resources\AdditionalFiles\template.prn
+LastID=T2-1

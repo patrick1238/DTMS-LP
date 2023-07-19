@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Threads/DatabaseUpdateThread.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/Resources/Storages/4DPropertyStorage.csv</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Database/Database.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Windowcontroller/MainWindowController.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/ImageObjects/ImageObject4D.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Observer/ObserveObjectClass.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/BackgroundHandler/Config.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/Resources/config/config.txt</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/BackgroundHandler/BackUpHandler.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/EventHandler/FileChooserButtonClickedHandler.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Observer/ObserveConnectedFilesClass.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/Basicfunctions/Importer.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/src/ImageObjects/ImageObject3D.java</file>
+            <file>file:/D:/Sonja/Digital_tissue_management_suite/tag/DTMS_version_1.0/Resources/Storages/3DPropertyStorage.csv</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,17 @@
+I8,A,001
+Q260,035
+q1228
+rN
+S2
+D15
+ZT
+JF
+O
+R425,0
+f100
+N
+A380,0,1,3,1,1,N,"$PrimKey$_$Year$"
+A320,108,1,3,1,1,N,"$Block$"
+b235,0,D,h3,"$PrimKey$_$Year$_$Block$_$Diagnosis$_$Stain$_$SliceType$"
+A280,108,1,2,1,1,N,"$Stain$"
+P1

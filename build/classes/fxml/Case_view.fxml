@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Windowcontroller.Case_viewController">
+   <children>
+      <AnchorPane layoutX="20.0" layoutY="220.0" prefHeight="392.0" prefWidth="806.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="170.0">
+         <children>
+            <TableView fx:id="Slice_table" prefHeight="402.0" prefWidth="878.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+            <Label fx:id="Slice_label" layoutX="315.0" layoutY="6.0" prefHeight="18.0" prefWidth="134.0" text="Label" textAlignment="JUSTIFY" AnchorPane.leftAnchor="315.0" AnchorPane.rightAnchor="315.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="30.0" layoutY="44.0" AnchorPane.bottomAnchor="460.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ComboBox fx:id="Add_Box" editable="true" layoutX="90.0" layoutY="124.0" prefHeight="26.0" prefWidth="690.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="146.0" AnchorPane.topAnchor="124.0" />
+            <Button fx:id="add_slice" layoutX="642.0" layoutY="124.0" mnemonicParsing="false" onAction="#add_slice_clicked" prefHeight="26.0" prefWidth="141.0" text="Add" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="124.0" />
+            <ComboBox fx:id="Diagnose_Box" editable="true" layoutX="90.0" layoutY="39.0" prefHeight="26.0" prefWidth="271.0" promptText="Diagnose" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="39.0" />
+            <ComboBox fx:id="Block_Box" layoutX="90.0" layoutY="81.0" prefHeight="26.0" prefWidth="100.0" promptText="Block" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="772.0" AnchorPane.topAnchor="80.0" />
+            <Label layoutY="5.0" text="Case ID:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="5.0" />
+            <Label layoutY="43.0" prefHeight="18.0" prefWidth="83.0" text="Diagnose:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="43.0" />
+            <Label layoutY="85.0" text="Block:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="85.0" />
+            <Label layoutX="2.0" layoutY="128.0" text="Add Slice:" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="128.0" />
+            <TextField fx:id="CaseField" layoutX="90.0" layoutY="1.0" prefHeight="26.0" prefWidth="716.0" promptText="CaseID" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <Button fx:id="Add_Block" layoutX="780.0" layoutY="81.0" mnemonicParsing="false" onAction="#Add_Blocked_clicked" prefHeight="26.0" prefWidth="100.0" text="Add Block" AnchorPane.rightAnchor="5.600000000000023" AnchorPane.topAnchor="81.0" />
+            <Button fx:id="Remove_Block" layoutX="203.0" layoutY="81.0" mnemonicParsing="false" onAction="#remove_clicked" prefHeight="26.0" prefWidth="117.0" text="Remove Block" AnchorPane.rightAnchor="642.0" AnchorPane.topAnchor="81.0" />
+            <TextField fx:id="Block_field" layoutX="687.0" layoutY="81.0" prefHeight="26.0" prefWidth="42.0" AnchorPane.rightAnchor="233.0" AnchorPane.topAnchor="81.0" />
+            <Label layoutX="630.0" layoutY="84.0" text="Block ID:" AnchorPane.rightAnchor="286.0" AnchorPane.topAnchor="84.0" />
+            <ComboBox fx:id="BlockType" layoutX="741.0" layoutY="80.0" prefHeight="26.0" prefWidth="77.0" AnchorPane.leftAnchor="741.0" AnchorPane.rightAnchor="118.0" AnchorPane.topAnchor="80.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="print_button" layoutX="20.0" layoutY="622.0" mnemonicParsing="false" onAction="#print_clicked" prefHeight="26.0" prefWidth="206.0" text="Print all lables" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

@@ -1,0 +1,44 @@
+Export full entries to csv - done
+Import of exported files
+sicherheitsabfragen
+EntryDate kann raus - done
+Doppelter Filter - done
+short cut add image - done
+neue Spalte Anmerkungen -done
+3 Farbe angeben - done
+
+vll:
+MultiSelect (delete,drag and drop) - done
+
+spätere releases:
+drag and drop für add image
+Statistic tool
+notwenige Angaben beim einfügen markieren
+
+- Wofür ist Display -> existing Additional files?
+
+Bugs:
+Bug 1:
+Versucht vorher ein anderes Bild durch dieses zu ersetzen:
+neues Bild einfügen --> File is still available!
+neustart --> Bild wurde nicht verschoben, aber Link eingefügt
+
+Bug 2:
+Doppelt öffnen des Programmes oder längere Laufzeit 
+--> Update von Bilddaten funktioniert ist
+
+Bug3: 
+gefiltert editieren, list index wird falsch gesetzt
+
+Öffnet nicht den Ordner mit dem Bild! - done
+
+Test:
+Löschen des Eintrags --> löscht das Bild - done
+
+Properties Bug (Multiview) - done
+Properties Bug ()
+Properties Bug (save delete edit extensive tests needed) - done
+Sonja im
+existierende Datei(Image) kann nicht ersetzt werden - done
+nach Filtern komplette liste anzeigen?
+editierte Bilder tauchen doppelt auf?
